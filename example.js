@@ -5,7 +5,9 @@ function staircaseSum(n) {
     // Loop from 1 up to the given number
     total += i; // Add the current number to the total
   }
-
+  // 0 + 1 = 1
+  // 1 + 2 = 3
+  // 3 + 3 = 6
   return total;
 }
 
